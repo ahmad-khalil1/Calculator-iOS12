@@ -11,7 +11,7 @@ import UIKit
 struct CalculatingLogic {
     
     private var number : Double?
-    
+    // tuples
     private var intermediatCalc : (n1 : Double , calcMethod : String )?
     
     mutating func setNumber(_ number:Double){

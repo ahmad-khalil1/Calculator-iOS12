@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     private var isFinishedTybingNumber:Bool = true
     
     @IBOutlet weak var displayLabel: UILabel!
+    // computed Prop
     private var displayValue : Double {
         get{
             guard let number = Double(displayLabel.text!) else {fatalError("Cannot convert display label text to a Double")}
